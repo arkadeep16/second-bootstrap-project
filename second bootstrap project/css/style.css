@@ -1,0 +1,295 @@
+body{
+  padding: 0;
+  margin: 0;
+box-sizing: border-box;
+
+}
+a:hover {
+color: orange!important;
+    text-decoration: none!important;
+}
+.my-nav a{
+  font-family: Arvo;
+  font-size: 20px;
+  color: #ff5500
+}
+.my-nav a:hover{
+  text-decoration: none;
+  color: inherit;
+
+}
+.my-nav li a{
+  font-family: Montserrat;
+  color: black!important;
+  font-size: 18px!important;
+}
+.my-nav  li a:hover{
+  color: #ff5500!important;
+}
+.banner{
+  background: #ff5500;
+
+  border-radius: 100% 0% 20% 80% / 100% 20% 80% 0%   ;
+}
+.banner-content{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.banner-content h1{
+font-family: Arvo;
+font-weight: 700;
+font-size: 60px;
+}
+.banner-content p{
+  font-family: Montserrat;
+font-weight: 700;
+
+}
+.banner img{
+  width :70% ;
+
+}
+.schedule-button{
+font-weight: 600!important;
+  font-family: Montserrat;
+  color:  #ff5500!important;
+  background-color: white!important;
+}
+.schedule-button:hover{
+  border-color: #ff5500 !important;
+color: white !important;
+background-color: black !important;
+  transform: scale(1.1);
+}
+.our-service{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.our-service h3{
+  font-family: Arvo;
+  font-weight: 700;
+  font-size: 40px;
+}
+.our-service p{
+font-family: Acme;
+}
+
+.card-image{
+  width: 20%;
+  height: 30%;
+
+}
+.col-content{
+  text-align: center !important;
+}
+.read-button{
+  font-weight: 600!important;
+    font-family: Montserrat;
+    color:  #!important;
+    background-color: #ff5500!important;
+
+}
+.read-button:hover{
+  border-color: #black; !important;
+color: white !important;
+background-color: black !important;
+  transform: scale(1.1);
+}
+.border-col{
+  border: 0 solid #000000;
+}
+
+.fa-address-book{
+  color:  #ff5500!important;
+}
+.fa-hand-holding-usd {
+  color:  #ff5500!important;
+}
+.fa-globe{
+  color:  #ff5500!important;
+}
+.fa-user-tie {
+  color:  #ff5500!important;
+}
+.card-content h4{
+  font-size: 20px;
+  font-family: Acme;
+}
+.card-content p{
+  font-family: Montserrat;
+  padding-right: 30PX;
+}
+.jumbo-content{
+  text-align: center!important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.jumbo-content h1{
+  font-size: 40px;
+  font-family: Arvo;
+}
+.jumbo-content p{
+  font-size: 20px;
+  padding-right: 0PX;
+
+}
+.solution-button{
+  font-weight: 600!important;
+    font-family: Montserrat;
+    color:  #ff5500!important;
+    background-color: white!important;
+}
+.solution-button:hover{
+  border-color: #ff5500 !important;
+color: white !important;
+background-color: black !important;
+  transform: scale(1.1);
+}
+.solution{
+  background: #ff5500!important;
+
+  border-radius: 100% 0% 20% 80% / 100% 20% 80% 0%   ;
+}
+.jumbotron {
+    padding: 2rem 1rem!important;
+    margin-bottom: 2rem !important;
+
+
+    background: #ff5500!important;
+    border-radius:100% 0% 20% 80% / 100% 20% 80% 0%    !important  ;
+}
+.left{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+.left h3{
+  font-family: Arvo;
+  font-weight: 700;
+  font-size: 40px;
+}
+.left p{
+  font-family: Montserrat;
+  font-size: 18px;
+}
+.right img{
+max-width: 100%;
+max-height: 95%;
+
+}
+
+.fa-connectdevelop{
+  color: #ff5500;
+}
+.Deals{
+  background-color: #ff5500;
+}
+.deal-row{
+
+}
+.deal-col{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.deal-col h4{
+font-family: Arvo;
+
+}
+.deal-col p{
+  font-family: Montserrat;
+  font-size: 18px;
+}
+.deal-button{
+  font-weight: 600!important;
+    font-family: Montserrat;
+    color:  #!important;
+    background-color: #ff5500!important;
+
+
+}
+.deal-button:hover{
+  border-color: #black; !important;
+color: white !important;
+background-color: black !important;
+  transform: scale(1.1);
+}
+
+.Industry-content{
+  display: flex;
+  justify-content: center;
+
+  flex-direction: column;
+
+}
+.Industry-content h1{
+font-family: Arvo;
+
+font-size: 40px;
+}
+.Industry-content p{
+  font-family: Montserrat;
+
+
+}
+.Industry img{
+  width :100% ;
+
+}
+.lady-bg {
+    background-color: #ff55003b!important;
+border-radius: 0% 40% 0% 30% / 40% 35% 0% 60% ;
+}
+
+
+
+.icon-color{
+  color:red;
+  font-size: 20px;
+}
+.icon-color:hover{
+  color:orange;
+}
+
+
+
+
+
+#footerSetting{
+margin-top: 100px!important;
+background-color: black;
+height: 20vh!important;
+
+}
+.list-item{
+  display: flex;
+  padding: 35px 370px;
+}
+.list-item li{
+  list-style: none;
+
+}
+.left-setting{
+  display: flex;
+  color: white;
+padding: 35px 0;
+}
+.left-setting a {
+  color: red;
+  padding-right: 10px;
+}
+.left-setting a :hover{
+  color: red;
+}
+.Copyright{
+  text-align:
+}
